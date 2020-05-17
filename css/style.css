@@ -1,0 +1,74 @@
+html
+		{font-family: 'Gaegu', cursive;
+font-family: 'Noto Sans KR', sans-serif;}
+		body, h1, h2, p, div, ul, li {margin:0; padding:0; }
+		a{text-decoration: none; color: black; }
+		h1{font-weight: 800; word-spacing: -1px; font-size: 3em;letter-spacing: -2px;
+			padding-top: 100px}
+		h2{font-weight: 500; word-spacing: -1px; font-size: 2em;letter-spacing: -2px;}
+		header{background: url(../img/img1.jpg;); height: 400px; margin-bottom: 2em; text-align: center;}
+		header p{width: 400px; margin: auto; padding-top: 30px;}
+		header .abs{position: absolute; height: 400px;  width: 100%; 
+					opacity:0.4; z-index: 1; }
+		nav {margin:30px 0px; position: sticky;top:0;background: white; z-index: 20; border-bottom:1px solid black;}
+		nav ul {margin: auto;}
+		nav ul li {list-style-type: none; width: 25%; height: 40px; }
+		nav ul li a{display: block; line-height:40px; text-align: center;}
+		nav ul li a:hover{ background: #638c0b; color:white; transition: all 0.5s;} 
+		footer{padding-top: 40px;}
+		.bababa{margin-top: 0px;
+		position: absolute;
+		border: solid 0.5px black;
+		width: 100%;}
+		.flexbox{display: flex;}
+			
+		.col-0{width: 90px;
+				margin: 0px 5px;}
+		.go {width:30%; height:30%}
+		.whoo{font-weight:100;} 
+		.text-center{text-align: center;}
+		.bg-gray{background: gray; }
+		.bg-white{background: white;}
+		.bg-orange{background: orange;} 
+		.bg-skyblue{background: skyblue}
+		.bg-red{background: red}
+		.bg-deepblue{background:navy;}
+		.h-400{height: 400px;}
+		.h-1500{width: 1520px; height: 700px;}
+		.h-50{height: 50px;}
+		.h-20{height: 20px;}
+		.h-1100{width: 1000px;}
+		.h-100{width: 200px;}
+		.h-800{width: 900px;}
+		.row{width: 1000px; margin: auto; z-index: 2; position: relative;}
+		.row div{padding: 15px;}
+		.flexbox{display: flex }
+		.col-1{width:16.66% }
+		.col-2{width:33.33%}
+		.col-3{width: 50%}
+		.col-4{width: 66.66%}
+		.col-5{width: 83.32%}
+		.col-6{width: 100%}
+		.text-white{color:white}  
+		.text-green{color: green;}
+		.bg-glow{background: url(../img/img2.jpg);}
+		.center{margin-right: : 400px; padding-right: 400px;}
+		.center2{ma-right: 400px;}
+		.wow{padding-top: 100px padding-bottom:100px;}
+		.wow2{padding-bottom: 500px;}
+		.wow3{padding-top: 800px, padding-bottom: 800px;}
+		.wow4{padding-top: 5px, padding-bottom: 5px;}
+		.wow{padding-top: 0px; margin-top: 0px;}
+		.margin1{padding-left: 75px; padding-right: 50px;}
+		.onlyhead{padding-top: 10px; padding-bottom: 100px; font-family: 'Gaegu' font-weight:700; font-size: 1em}
+		.margin2{margin: 0;}
+		.back { background: url(../img/img18.jpg);
+				background-attachment: fixed;
+				background-position: 0px -10px;
+				background-size: 100% 
+				}
+		.back1 { background: url(../img/img19.jpg);
+				background-attachment: fixed;
+				background-position: 0px -10px;
+				background-size: 100% 
+				}
